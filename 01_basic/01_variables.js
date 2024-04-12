@@ -12,4 +12,5 @@ accountCity="Multan";
 prefor not to use the var ketword 
 becase to block and fucntion socpe issues with var.
 */
-console.table([accountId, accountEmail,accountCity,anccountPassword]);
+console.table([accountId, accountEmail,accountCity,anccountPassword]); 
+// that is  why we can used print all vaible in table to check the values
