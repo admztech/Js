@@ -23,3 +23,9 @@ const hundreds = 1000000;
 // console.log(Math.floor(4.5)); //it take the floor value if the point valueis equal ot more thans 0.5 that did not do round off.
 
 console.log(Math.random()); // math.random bedfault value always between 0 and 1, but we can define the rang specification. like creat dia game 1 to 6
+console.log((Math.random()*10)+1); 
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random()*(max-min+1))+min);  /* max-min give the range of number and +1 add to avoid the zero( max-min + 1) give
+                                                            minmum value is 1 but we need to minimum value to min= 10 that is why we add min variable */
