@@ -27,5 +27,10 @@ console.log((Math.random()*10)+1);
 const min = 10;
 const max = 20;
 
-console.log(Math.floor(Math.random()*(max-min+1))+min);  /* max-min give the range of number and +1 add to avoid the zero( max-min + 1) give
-                                                            minmum value is 1 but we need to minimum value to min= 10 that is why we add min variable */
+
+ /* max-min give the range of number and +1 add to avoid the zero( max-min + 1) give
+ minmum value is 1 but we need to minimum value to min= 10 that is why we add min variable */
+// console.log(Math.floor(Math.random()*(max-min+1))+min); 
+
+console.log(Math.floor(Math.random()*10)+1);
+
