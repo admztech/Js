@@ -43,3 +43,24 @@ console.log(Object.keys(tinderUser)) // that return the object key in teh array 
 console.log(Object.keys(tinderUser)) // that return the object value in the array data type;
 console.log(Object.entries(tinderUser)) // that retunr the key value in the array that also inside the array;
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+//de-struture Object that is another syntaxt to access the objects values
+const course = {
+    coursename:"js hindi",
+    price:"999",
+    courseInstructor: "hitesh"
+}
+const {courseInstructor: instrcor} = course;   // write the value of object into curely braces then assign to the object name
+console.log(instrcor);  // that way we can access the objects value with out mention Dot or Sequare Notation;
+
+/// JSON 
+
+// {
+//     "name":"js hindi",
+//     "price":"free"
+// }
+/**also json  into array formate */
+// [
+//     {},
+//     {}
+// ]
