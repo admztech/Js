@@ -9,7 +9,7 @@ if(true){
 // console.log(b);
 
 /*nested scope *In the nesting a child block scope can access the parent  bloack sope element but a parent block 
-scope can not access the child block scope element /
+scope can not access the child block scope element */
 
 function one (){
     const username ="Adnan";
@@ -21,4 +21,4 @@ function one (){
     // console.log(website);
     two();
 }
-one();
+one()
