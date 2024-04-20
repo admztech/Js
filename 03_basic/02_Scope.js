@@ -6,4 +6,19 @@ if(true){
     const c = 30
 }
 
-console.log(b);
+// console.log(b);
+
+/*nested scope *In the nesting a child block scope can access the parent  bloack sope element but a parent block 
+scope can not access the child block scope element /
+
+function one (){
+    const username ="Adnan";
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website);
+    two();
+}
+one();
