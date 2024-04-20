@@ -1,0 +1,2 @@
+/* unction is the package or block of code in which that cantain the number of lines code.
+we can use that block or package of code where to by calling the function*/
