@@ -24,7 +24,21 @@ function addTwoNumbers(number1,number2){
     return result;
 }
 // console.log(addTwoNumbers(4,8));
-
-function loginUserName(username){
-    
+function calculateCardPrice(...num1){   // (...)restoperator in javascript in fuction use to manage the
+    return num1;
 }
+// console.log(calculateCardPrice(200,300,400))
+const user ={
+    username:"hitesh",
+    price:199
+}
+function userData(anyobject){
+console.log(`This is the user name ${anyobject.username} and the price is ${anyobject.price}`);
+}
+// userData(user);
+
+const myNewArray = [200,100,400];
+function returnSecondValue(getArray){
+   console.log( getArray[1]);
+   }
+returnSecondValue(myNewArray);
