@@ -1,6 +1,6 @@
 /*there is truthy and Falsy values where the values consider to a true or false */
 
-// Falsy Vales : 0, -0 ,  Bigint 0n, null , ""(emprtystring),undefned, NaN not a number
+// Falsy Vales : 0, -0 ,  Bigint 0n, null , ""(emprtystring),undefned, NaN (not a number)
 
 /*truth values: "0" (zero inside the string that is not a empty string), "false" (that is a string not a false),
 " "(space inside the string), [] empty array, {} empty object, function(){} empty function*/
