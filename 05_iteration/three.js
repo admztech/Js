@@ -6,5 +6,9 @@ for (const elements of myArray) {
 
 const greeting = "Hello World";
 for (const greet of greeting){
+    if(greet==" ")
+    {
+        continue;
+    }
     console.log(`Each char is ${greet}`);
 }
