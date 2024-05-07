@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff";>
+    <div class="parent" >
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thrusday</div>
+    </div>
+</body>
+<script>
+    const parentEle = document.querySelector('.parent');
+    // console.log(parentEle);
+    // console.log(parentEle.children[1]); // that retunr the nodelist of child elments
+    for (let i = 0; i<parentEle.children.length; i++){
+        // console.log(parentEle.children[i].innerHTML);
+    }
+    parentEle.children[1].style.color="green";
+    /* console.log(parentEle.firstElementChild); // return the firstelement of child
+    console.log(parentEle.lastElementChild); //return the lastElement of child */
+    const dayOne = document.querySelector('.day');
+    console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    console.log(dayOne.nextElementSibling);
+</script>
+</html>
