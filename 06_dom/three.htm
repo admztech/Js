@@ -8,6 +8,14 @@
 <body style="background-color: #212121; color: #fff";>
 <script>
     const div = document.createElement('div');
+    console.log(div);
+    div.className = "main"; // set the calss 
+    div.id = Math.round(Math.random() * 10 + 1); // set the Id
+    div.setAttribute("title", "text");
+    div.style.backgroundColor= "green";
+    div.style.padding = "12px";
+    // div.innerText = "Create the Element";
+    document.createTextNode("create the element")
 </script>
 </body>
 </html>
