@@ -15,7 +15,10 @@
     div.style.backgroundColor= "green";
     div.style.padding = "12px";
     // div.innerText = "Create the Element";
-    document.createTextNode("create the element")
+   const addText = document.createTextNode("create the element");
+   div.appendChild(addText);
+   document.appendChild(div);
+
 </script>
 </body>
 </html>
