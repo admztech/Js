@@ -7,7 +7,7 @@
 </head>
 <body style="background-color: #212121; color: #fff";>
 <script>
-    const div = document.createElement('div');
+    const div = document.createElement('div'); //createElement
     console.log(div);
     div.className = "main"; // set the calss 
     div.id = Math.round(Math.random() * 10 + 1); // set the Id
@@ -17,7 +17,7 @@
     // div.innerText = "Create the Element";
    const addText = document.createTextNode("create the element");
    div.appendChild(addText);
-   document.appendChild(div);
+   document.body.appendChild(div);
 //
 </script>
 </body>
